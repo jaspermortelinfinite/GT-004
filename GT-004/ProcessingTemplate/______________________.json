@@ -1,0 +1,50 @@
+{
+  "autoArchive": true,
+  "description": "a<h1>m<\/h1>k",
+  "folder": "Aldrin",
+  "highRiskStatisticMethod": "COUNT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 5,
+  "node": "tmg",
+  "onHold": true,
+  "owner": "i",
+  "passBy": true,
+  "priority": "${X}",
+  "processingType": "TASK",
+  "resultMapping": "${R}",
+  "serverNodeType": "WINDOWS",
+  "statisticMethod": "MEDIAN",
+  "statisticPeriod": "ALL",
+  "tags": 
+  [
+    "AWS"
+  ],
+  "taskType": "SH",
+  "weight": "${X}",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "script": "echo ala ma kota ${endpoint.USER}\necho ok\n\n\n\necho This is a test of Commit"
+  },
+  "designParameters": 
+  [
+    {
+      "editorType": "TEXT",
+      "name": "P1",
+      "title": "A<h1>M<\/h1>K"
+    },
+    {
+      "editorType": "OUTPUT",
+      "name": "AAA",
+      "outputFormat": "TEXT",
+      "title": "A<h1>M<\/h1>K",
+      "outputDefinition": {
+        "aggregationFunction": "",
+        "linePattern": "3",
+        "linePatternOperator": "STARTS_WITH",
+        "valueEndOperator": "END_OF_PATTERN",
+        "valueStartOperator": "START_OF_PATTERN"
+      }
+    }
+  ]
+}
