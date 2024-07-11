@@ -1,0 +1,18 @@
+{
+  "highRiskStatisticMethod": "COUNT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 5,
+  "node": "TMG_AS_ROOT",
+  "owner": "i",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "LINUX",
+  "statisticMethod": "MEDIAN",
+  "statisticPeriod": "ALL",
+  "taskType": "SH",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "script": "ps -ef\n\n${ERROR(1,'An error has occured while calling ps')}\n\n\n${KVS::TMG_KEY_VAL_STORE_01(SAMPLE_CODE)}"
+  }
+}
