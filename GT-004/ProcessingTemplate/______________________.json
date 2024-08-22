@@ -24,7 +24,7 @@
   "customFieldValues": {
   },
   "processingCommand": {
-    "script": "echo ala ma kota ${endpoint.USER}\necho ok\n\necho 1234568asdkfj\"\"(@$);\n\necho medium rare.\n\necho welldone.\n\necho guds lng.\n\necho This is a test of Commit"
+    "script": "echo ala ma kota ${endpoint.USER}\necho ok\n\necho 1234568asdkfj\"\"(@$);\n\necho medium rare.\n\necho welldone.\n\necho guds lng.\n\necho This is a test of Commit\n\necho testing."
   },
   "designParameters": 
   [
