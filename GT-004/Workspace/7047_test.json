@@ -1,0 +1,25 @@
+{
+  "iconCode": "acorn",
+  "iconSet": "FUGUE",
+  "setFolder": true,
+  "setWorkspaceTags": 
+  [
+    ""
+  ],
+  "workspaceSetFolderType": "SET_WORKSPACE_FOLDER",
+  "parameters": 
+  [
+    {
+      "allowExpressions": true,
+      "editorType": "DATE",
+      "name": "date",
+      "title": "date"
+    },
+    {
+      "allowExpressions": true,
+      "editorType": "TEXT",
+      "name": "test",
+      "title": "test"
+    }
+  ]
+}
